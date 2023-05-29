@@ -2,20 +2,29 @@
  
  
 ### Purpose
-The purpose of this project is to communicate some of findings from the data exploration project by presenting interactive narrative visualisation in regard to movies that won the Academy Awards (Oscars) from 1930 to 2014. 
+This data visualization project is driven by a desire to investigate and comprehend the historical context, critical reception, and IMDb ratings of Academy Award-winning films from 1930 to 2014. We can obtain insight into the trends, patterns, and factors that contribute to a film's Oscar success by analyzing this extensive dataset. In addition, in light of the recent rise of streaming platforms and their impact on the film industry, we intend to investigate the nominations and wins earned by these platforms during the specified time frame.
 
-### Scope
-The scope of this project was the movies that won the Academy Awards from 1930 to 2014, and the Academy Awards were limited to “Best Director”, “Best Actor”, “Best Actress”, “Best Supporting Actor”, and “Best Supporting Actress”. 
+### Objective
+To what extent have various film genres been depicted in the recipients of the Academy Awards from 1930 to 2014?<br>
+What are the discernible trends and patterns evident in the movies that have won the Academy Award from 1930 to 2014?<br>
+What is the correlation between IMDb scores and the success of movies that have won Academy Awards?<br>
+What are the potential benefits of examining the historical backdrop and critical response of these films?<br>
+What is the influence of streaming services on the Academy Awards within the given timeframe?
 
 
-### Design & Implementation
-Visualisation designs were developed using the Five design Sheet (FdS) methodology, each sheet having five parts. The narrative visualisation was then implemented with D3.js (version 4), which is one of JavaScript libraries, along with JavaScript (ECMAScript 6). The main reason for selecting this library is that it has
-great graphing capabilities, using HTML, SVG, and CSS to make webpages interact with data.
+
+### Planning:
+First, we will take the data from Demographics of Academy Awards (Oscars) Winners | Kaggle, save it in CSV files  to visualize and analyze.
+Second we will use that data to create a web of investigation.<br>
+In our website, we will create a bar chart to show the number of awards won and the mean IMDb score across the country. We also create the heart map to show film genres across the year (1930 - 2014).<br>
+We will use HTML/CSS, JavaScript, SVG and D3 library to create the chart on our website. <br>
+Finally, with the bar chart and heat map we created, we will solve all of the primary questions above to achieve the purpose.
+
 
 
 
 
 
 ### Data Sources
-* [Academy Awards Winners from 1930 to 2014](https://www.kaggle.com/fmejia21/demographics-of-academy-awards-oscars-winners#Oscars-demographics-DFE.csv)
+* [Demographics of Academy Awards (Oscars) Winners](https://www.kaggle.com/fmejia21/demographics-of-academy-awards-oscars-winners#Oscars-demographics-DFE.csv)
 
